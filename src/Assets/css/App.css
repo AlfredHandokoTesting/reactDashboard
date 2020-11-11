@@ -1,0 +1,52 @@
+html,
+body, ul{
+  margin-top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.header-app{
+  position: fixed;
+  top: 0;
+  background-Color: 	#D3D3D3;
+  width: 100%;
+  height: 80px;
+}
+
+.header-app .title
+{
+  margin-top: 20px;
+  font-size:40px;
+  font-weight: bold;
+}
+
+.header-app .user-message
+{
+  position: absolute;
+  right: 5px;
+  bottom:5px;
+  
+}
+
+.body-app{
+  position: relative;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
